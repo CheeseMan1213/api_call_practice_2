@@ -17,7 +17,7 @@ class TestCollectionObject {// extends Object{
   String ttime;
 
   //Constructor.
-  //I do not include the first name in the constructor because I want MongoDB to handle the
+  //I do not include the id in the constructor because I want MongoDB to handle the
   //auto generation of the primary key.
   TestCollectionObject(this.firstName, this.lastName, this.ttime);
 
